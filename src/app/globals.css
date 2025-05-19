@@ -1,28 +1,36 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-montserrat);
 }
 
 body {
-  font-family: var(--font-inter);
+  font-family: var(--font-montserrat);
 }
 
 @theme {
-  --color-gold-100: #dbd4ad;
-  --color-gold-200: #c6b97e;
-  --color-gold-300: #b5a05a;
-  --color-gold-400: #a68d4c;
-  --color-gold-500: #8e7240;
-  --color-white: #f5f5f5;
+  /* --color-primary-50: #f7f7ef;
+  --color-primary-100: #ece9d5;
+  --color-primary-200: #dbd4ad;
+  --color-primary-300: #b5a05a;
+  --color-primary-400: #a68d4c;
+  --color-primary-500: #8e7240; */
+  --color-primary-50: #fff3ed;
+  --color-primary-100: #fee5d6;
+  --color-primary-200: #fcc7ac;
+  --color-primary-300: #f66e41;
+  --color-primary-400: #f34213;
+  --color-primary-500: #e53011;
 }
 
-.arrow-icon-wrapper {
-  position: relative;
+@utility wrapper {
+  @apply px-4 sm:px-6 lg:px-12 xl:px-20;
 }
-.arrow-icon {
-  z-index: 10;
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px);}
+  to { opacity: 1; transform: translateY(0);}
 }
-.arrow-icon-ghost {
-  z-index: 5;
+.animate-fade-in {
+  animation: fadeIn 0.3s;
 }

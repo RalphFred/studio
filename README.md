@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web & Software Development Studio
+
+This project is a modern web application built with [Next.js](https://nextjs.org), designed to showcase a web and software development studio. It features a sleek, responsive UI with smooth animations and a focus on conversion-driven design.
+
+## Features
+
+- **Hero Section**: Introduces the studio with a compelling value proposition: "Websites That Do More than Just Look Good."
+- **Services**: Offers a range of services including:
+  - Custom Website Development
+  - Custom Software Development
+  - Landing Page Development
+  - Website Audit & Redesign
+- **Portfolio/Works**: A section to display past projects (currently with placeholder content).
+- **Client Testimonials**: Showcases feedback from clients, highlighting the studio's impact.
+- **FAQs**: Answers common questions about the studio's services and offerings.
+- **Contact Form**: A user-friendly form for potential clients to reach out and start a project.
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org)
+- **UI Libraries**: React, Tailwind CSS
+- **Animation**: GSAP, Lenis for smooth scrolling
+- **Additional Libraries**: Swiper for testimonials, react-fast-marquee for dynamic content
 
 ## Getting Started
 
@@ -16,9 +38,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
 ## Learn More
 
